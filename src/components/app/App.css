@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Yandex Sans Display Bold'; 
+    src: url(../../fonts/YandexSansDisplay-Bold.ttf); 
+}
+
+@font-face {
+    font-family: 'Yandex Sans Display Light'; 
+    src: url(../../fonts/YandexSansDisplay-Light.ttf); 
+}
+
+@font-face {
+    font-family: 'Yandex Sans Display Regular'; 
+    src: url(../../fonts/YandexSansDisplay-Regular.ttf); 
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+
+ul, li, nav{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+
+
+.container {
+    max-width: 1169px;
+    width: 100%;
+    margin: 0 auto;
+    scroll-behavior: smooth; 
+}
+
+/* .btn {
+    font-family: 'Yandex Sans Display Regular';
+    font-size: 16px;
+    line-height: 107%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #000000;
+    background: #FFDF39;
+    border-radius: 4px;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+    width: 267px;
+    height: 43px;
+}
+.btn:hover {
+    background: #fad82e;
+    color: #000000;
+} */
+
+.title {
+    font-family: 'Yandex Sans Display Bold';
+    font-size: 30px;
+    line-height: 122.5%;
+    color: #000000;
+    margin: 0;
+}
+
+.title_white {
+    color: #fff;
+}
+

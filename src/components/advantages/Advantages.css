@@ -1,0 +1,53 @@
+.advantages {
+    background: #222222;
+    padding: 65px 0 82px;
+    position: relative;
+}
+
+.advantages__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+}
+
+.advantages__items {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    margin-left: 70px;
+}
+
+.advantages__item {
+    position: relative;
+    max-width: 300px;
+}
+
+.advantages__item-title {
+    font-family: 'Yandex Sans Display Regular';
+    font-size: 18px;
+    line-height: 107%;
+    color: #FFFFFF;
+}
+
+.advantages__icon {
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
+.advantages__item-descr {
+    font-family: 'Yandex Sans Display LighT';
+    font-size: 16px;
+    line-height: 115%;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.advantages__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(50vw + 50px);
+    height: 100%;
+    object-fit: cover;
+}

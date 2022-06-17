@@ -1,0 +1,22 @@
+.car {
+    padding: 51px 0;
+    background: #FFDF39;
+}
+
+.car__container {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    align-items: center;
+}
+
+.car__descr {
+    font-size: 30px;
+    line-height: 122.5%;
+    font-family: 'Yandex Sans Display Regular';
+    color: #000000;
+}
+
+.car__descr:first-child {
+    font-family: 'Yandex Sans Display Bold';
+}
